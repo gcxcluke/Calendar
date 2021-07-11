@@ -17,6 +17,8 @@ require(DT)
 require(kableExtra)
 library(xtable)
 library(readxl)
+library(rJava)
+library(xlsx)
 ```
 
 ## Calendar
@@ -25,8 +27,10 @@ TESTING
 
 
 ```{r echo=FALSE, results='asis'}
-data <- read_excel("Schedule.xlsx",
-                   col_types=c('date','text','text','text','text'))
+
+data <- read.xlsx2("Schedule.xlsx",sheetIndex=1,
+                  colClasses=c("Date","character","character","character"))
+data[,1]=as.character(data[,1])
 print(xtable(data),type='html',include.rownames=FALSE)
 ```
 
