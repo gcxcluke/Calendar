@@ -7,7 +7,6 @@ output:
     toc: TRUE
     toc_float: TRUE
     css: style.css
-  pdf_document: default
 ---
 
 
@@ -24,7 +23,12 @@ library(readxl)
 
 TESTING
 
-```{r include=FALSE}
-data <- read_excel("Schedule.xlsx")
-print(xtable(data), type = "html",include.rownames=FALSE)
+
+```{r echo=FALSE, results='asis'}
+data <- read_excel("Schedule.xlsx",
+                   col_types=c('date','text','text','text','text'))
+print(xtable(data),type='html',include.rownames=FALSE)
 ```
+
+## Other
+
