@@ -3,9 +3,9 @@ title: "2021 Calendar"
 author: "Georgetown College Cross Country"
 date: "Updated:`r Sys.time()`"
 output:
-  html_document:
-    toc: TRUE
-    toc_float: TRUE
+  rmdformats::readthedown:
+    highlight: kate
+    toc_depth:  4
     css: style.css
 ---
 
@@ -21,18 +21,24 @@ library(rJava)
 library(xlsx)
 ```
 
-## Calendar
+# Calendar
 
-TESTING
+## August
 
 
 ```{r echo=FALSE, results='asis'}
 
 data <- read.xlsx2("Schedule.xlsx",sheetIndex=1,
                   colClasses=c("Date","character","character","character"))
+data <- data[data$Date<as.Date("2021-09-01"),]
 data[,1]=as.character(data[,1])
 print(xtable(data),type='html',include.rownames=FALSE)
 ```
 
-## Other
+## September
+
+## October
+
+## November
+
 
