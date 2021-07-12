@@ -21,24 +21,46 @@ library(rJava)
 library(xlsx)
 ```
 
-# Calendar {.tabset}
+# Calendar
 
-## August
+## Select a month below... {.tabset}
+
+### August
 
 
 ```{r echo=FALSE, results='asis'}
 
 data <- read.xlsx2("Schedule.xlsx",sheetIndex=1,
                   colClasses=c("Date","character","character","character"))
-data <- data[data$Date<as.Date("2021-09-01"),]
-data[,1]=as.character(data[,1])
-print(xtable(data),type='html',include.rownames=FALSE)
+aug <- data[data$Date<as.Date("2021-09-01"),]
+aug[,1]=as.character(aug[,1])
+print(xtable(aug),type='html',include.rownames=FALSE)
 ```
 
-## September
+### September
 
-## October
+```{r echo=FALSE, results='asis'}
 
-## November
+sept <- data[data$Date<as.Date("2021-10-01") & data$Date>as.Date("2021-08-31"),]
+sept[,1]=as.character(sept[,1])
+print(xtable(sept),type='html',include.rownames=FALSE)
+```
 
+### October
+
+```{r echo=FALSE, results='asis'}
+
+oct <- data[data$Date<as.Date("2021-11-01") & data$Date>as.Date("2021-09-30"),]
+oct[,1]=as.character(oct[,1])
+print(xtable(oct),type='html',include.rownames=FALSE)
+```
+
+### November
+
+```{r echo=FALSE, results='asis'}
+
+nov <- data[data$Date<as.Date("2021-12-01") & data$Date>as.Date("2021-10-31"),]
+nov[,1]=as.character(nov[,1])
+print(xtable(nov),type='html',include.rownames=FALSE)
+```
 
