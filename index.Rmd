@@ -52,7 +52,7 @@ print(xtable(sept),type='html',include.rownames=FALSE)
 
 oct <- data[data$Date<as.Date("2021-11-01") & data$Date>as.Date("2021-09-30"),]
 oct[,1]=as.character(oct[,1])
-print(xtable(oct),type='html',include.rownames=FALSE)
+print(xtable(oct),type='html',include.rownames=FALSE,sanitize.text.function = function(x){x})
 ```
 
 ### November
@@ -70,7 +70,6 @@ print(xtable(nov),type='html',include.rownames=FALSE)
 
 meets <- data[data$Type=="Meet",]
 meets[,1]=as.character(meets[,1])
-meets[1,3]="<a href='meetInfo2021.html'>Meet Info</a>"
 print(xtable(meets),type='html',include.rownames=FALSE,sanitize.text.function = function(x){x})
 ```
 
