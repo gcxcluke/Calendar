@@ -64,3 +64,12 @@ nov[,1]=as.character(nov[,1])
 print(xtable(nov),type='html',include.rownames=FALSE)
 ```
 
+### Meets
+
+```{r echo=FALSE, results='asis'}
+
+meets <- data[data$Type=="Meet",]
+meets[,1]=as.character(meets[,1])
+print(xtable(meets),type='html',include.rownames=FALSE)
+```
+
