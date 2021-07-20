@@ -21,9 +21,11 @@ library(rJava)
 library(xlsx)
 ```
 
-# Calendar
+# 2021-2022 Information
 
-## Select a month below... {.tabset}
+## XC Calendar {.tabset}
+
+Track & Field Calendar comming soon. Move in for T&F Athletes will be standard student move in.
 
 ### August
 
@@ -73,7 +75,31 @@ meets[,1]=as.character(meets[,1])
 print(xtable(meets),type='html',include.rownames=FALSE,sanitize.text.function = function(x){x})
 ```
 
-## Testing Area
+## Freshmen Info
 
-<a href="meetInfo2021.html">Meet Info</a>
+Freshmen: two major things need to be completed by August first
+
+### PlayNAIA
+
+All freshmen are required to register with the NAIA Eligibility Center at the following link: <a href="https://play.mynaia.org/">PlayNAIA</a>
+
+The NAIA charged a 1 time fee around $100 that GC is not allowed to cover and you will be required to send in transcripts. PLEASE GET YOU END OF THIS TAKEN CARE OF BEFORE AUGUST 1st!!!!! Once you have sent in the required documents it can take a few weeks for the NAIA to review and clear you to compete. So this needs to be done ASAP!
+
+Once you register, you will be assigned an NAIA-ID number. Please let me know what that number.
+
+### Insurance Information and Physicals
+
+Stacee Gibson from Athletic Training should have sent you Insurance form information to you Georgetown College Email. PLEASE GET THIS DONE BEFORE AUGUST 1st!
+
+If you have any issues with the forms, please email Stacee at: stacee_gibson@georgetowncollege.edu
+
+Physicals will be FREE and they must be performed by a doctors that GC's insurance has approved in order for you to be covered by GC insurance. (We are partnered with UK Healthcare, so you will be seen by UK Healthcare doctors) Your phsycial cannot be completed unless you have filled out the forms!
+
+
+
+
+
+## Testing
+
+<a href="meetInfo2021.html">NAIA Eligibility Center</a>
 

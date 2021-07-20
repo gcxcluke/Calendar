@@ -1,5 +1,5 @@
 ---
-title: "Georgetown College Cross Country Meet Information"
+title: "Asbury Invitational Information"
 author: "Luke Garnett"
 date: "Updated:`r Sys.time()`"
 output:
@@ -16,9 +16,9 @@ require(DT)
 library(xtable)
 ```
 
-## Berea Centre Jamboree Meet Info
+## Asbury Invitational Information
 
-<a href="BC_CC_Jamboree_Information_Sheet.pdf" target="_blank" class="btn btn-lg btn-outline">
+<a href="Asbury.pdf" target="_blank" class="btn btn-lg btn-outline">
     <i class="fa fa-file-pdf-o"></i>
     Download file
 </a>
