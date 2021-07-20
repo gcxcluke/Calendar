@@ -36,6 +36,9 @@ Select a month or group below:
 
 data <- read.xlsx2("Schedule.xlsx",sheetIndex=1,
                   colClasses=c("Date","character","character","character"))
+tf <- read.xlsx2("Schedule.xlsx",sheetIndex=2,
+                  colClasses=c("Date","character","character","character"))
+
 aug <- data[data$Date<as.Date("2021-09-01"),]
 aug[,1]=as.character(aug[,1])
 print(xtable(aug),type='html',include.rownames=FALSE)
@@ -102,7 +105,12 @@ Physicals will be FREE and they must be performed by a doctors that GC's insuran
 
 Comming Soon
 
+```{r echo=FALSE, results='asis'}
 
+aug <- tf[tf$Date<as.Date("2021-09-01"),]
+aug[,1]=as.character(aug[,1])
+print(xtable(aug),type='html',include.rownames=FALSE)
+```
 
 ## Testing
 
