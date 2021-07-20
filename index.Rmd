@@ -1,6 +1,6 @@
 ---
-title: "2021 Calendar"
-author: "Georgetown College Cross Country"
+title: "Georgetown College XCTF 2021-2022"
+author: "Luke Garnett"
 date: "Updated:`r Sys.time()`"
 output:
   rmdformats::readthedown:
@@ -21,11 +21,13 @@ library(rJava)
 library(xlsx)
 ```
 
-# 2021-2022 Information
+# 2021-2022 Information {.tabset}
 
 ## XC Calendar {.tabset}
 
 Track & Field Calendar comming soon. Move in for T&F Athletes will be standard student move in.
+
+Select a month or group below:
 
 ### August
 
@@ -77,7 +79,7 @@ print(xtable(meets),type='html',include.rownames=FALSE,sanitize.text.function = 
 
 ## Freshmen Info
 
-Freshmen: two major things need to be completed by August first
+Freshmen: two major things need to be completed by August 1st
 
 ### PlayNAIA
 
@@ -96,10 +98,16 @@ If you have any issues with the forms, please email Stacee at: stacee_gibson@geo
 Physicals will be FREE and they must be performed by a doctors that GC's insurance has approved in order for you to be covered by GC insurance. (We are partnered with UK Healthcare, so you will be seen by UK Healthcare doctors) Your physical cannot be completed unless you have filled out the forms!
 
 
+## TF Calendar
+
+Comming Soon
 
 
 
 ## Testing
 
-<a href="meetInfo2021.html">NAIA Eligibility Center</a>
+
+
+<a href="meetInfo2021.html">Testing</a>
+
 
