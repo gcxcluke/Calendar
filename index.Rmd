@@ -25,7 +25,13 @@ library(xlsx)
 
 ## XC Calendar {.tabset}
 
-Track & Field Calendar comming soon. Move in for T&F Athletes will be standard student move in.
+Meal Schedule for Aug 14th-Aug 20th:
+
+- Breakfast: 8am-9am, Student Center / Grill
+- Lunch: 11:30am-1:30pm, East Campus Conference Center
+- Lunch: 5:30pm-7:30pm, East Campus Conference Center
+
+We may end up having more specific meal times so that teams are staggered. These times and locations are subject to change. 
 
 Select a month or group below:
 
