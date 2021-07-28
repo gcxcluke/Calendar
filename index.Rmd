@@ -19,6 +19,7 @@ library(xtable)
 library(readxl)
 library(rJava)
 library(xlsx)
+library(googlesheets4)
 ```
 
 # 2021-2022 Information {.tabset}
@@ -109,7 +110,6 @@ Physicals will be FREE and they must be performed by a doctors that GC's insuran
 
 ## TF Calendar
 
-Comming Soon
 
 ```{r echo=FALSE, results='asis'}
 
