@@ -20,6 +20,7 @@ library(readxl)
 library(rJava)
 library(xlsx)
 library(googlesheets4)
+library(ggplot2)
 ```
 
 # 2021-2022 Information {.tabset}
@@ -86,6 +87,79 @@ meets <- data[data$Type=="Meet",]
 meets[,1]=as.character(meets[,1])
 print(xtable(meets),type='html',include.rownames=FALSE,sanitize.text.function = function(x){x})
 ```
+
+## XC Class Schedule Summary
+
+```{r echo=FALSE, warning = FALSE,message = FALSE}
+min2sec=function(min,sec=0){
+  return((min*60)+sec)
+}
+
+sec2min=function(sec){
+  min=floor(sec/60)
+  sec=sec %% 60
+  return(sprintf("%02d:%02d", as.integer(min), as.integer(sec)))
+}
+
+classes <- read_sheet("https://docs.google.com/spreadsheets/d/1DXkfPjWrzR2B6EJhWrfwwTLuP4Jd_nQkOExpdl7aXV4/edit?resourcekey#gid=392298842")
+
+names(classes)=c("Timestamp","Name", "ClassCode", "ClassName", "MeetingDays", "Start", "End")
+
+classes$Start <- strftime(classes$Start, format="%H:%M", tz="GMT")
+classes$End <- strftime(classes$End, format="%H:%M", tz='GMT')
+
+temp <- strsplit(classes$Start,":")
+temp2 <- strsplit(classes$End,":")
+StartSec <- rep(NA,length(classes$End))
+EndSec <- rep(NA,length(classes$End))
+
+for(i in 1:length(classes$End)){
+  StartSec[i] <- min2sec(as.integer(temp[[i]][1]),as.integer(temp[[i]][2]))
+  EndSec[i] <- min2sec(as.integer(temp2[[i]][1]),as.integer(temp2[[i]][2]))
+}
+
+secs <- min2sec(c(8,9,10,11,12,13,14,15,16,17,18,19,20,21))
+classes <- data.frame(classes, StartSec, EndSec)
+m <- classes[grepl( "Monday", classes$MeetingDays, fixed = TRUE),]
+t <- classes[grepl( "Tuesday", classes$MeetingDays, fixed = TRUE),]
+w <- classes[grepl( "Wednesday", classes$MeetingDays, fixed = TRUE),]
+r <- classes[grepl( "Thursday", classes$MeetingDays, fixed = TRUE),]
+f <- classes[grepl( "Friday", classes$MeetingDays, fixed = TRUE),]
+
+mcount <- rep(NA,length(secs))
+tcount <- rep(NA,length(secs))
+wcount <- rep(NA,length(secs))
+rcount <- rep(NA,length(secs))
+fcount <- rep(NA,length(secs))
+for(i in 1:length(secs)){
+  mcount[i] <- sum(secs[i]>=m$StartSec & secs[i]<=m$EndSec)
+  tcount[i] <- sum(secs[i]>=t$StartSec & secs[i]<=t$EndSec)
+  wcount[i] <- sum(secs[i]>=w$StartSec & secs[i]<=w$EndSec)
+  rcount[i] <- sum(secs[i]>=r$StartSec & secs[i]<=r$EndSec)
+  fcount[i] <- sum(secs[i]>=f$StartSec & secs[i]<=f$EndSec)
+}
+
+days <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
+plot <- ggplot() + geom_point() + ggtitle("Cross Country Class Schedule Summary") + theme(plot.title = element_text(hjust = 0.5)) 
+
+
+plot + geom_segment(aes(x=m$StartSec,xend=m$EndSec,y=1,yend=1,lwd=5),col="#ff6600") +
+ geom_segment(aes(x=t$StartSec,xend=t$EndSec,y=2,yend=2,lwd=5),col="#ff6600") +
+ geom_segment(aes(x=w$StartSec,xend=w$EndSec,y=3,yend=3,lwd=5),col="#ff6600") +
+ geom_segment(aes(x=r$StartSec,xend=r$EndSec,y=4,yend=4,lwd=5),col="#ff6600") +
+ geom_segment(aes(x=f$StartSec,xend=f$EndSec,y=5,yend=5,lwd=5),col="#ff6600") +
+  scale_y_continuous(name="Day", breaks=c(1,2,3,4,5), labels=days) +
+  scale_x_continuous(name="Time",breaks=secs,
+                     labels=c("8am","9am","10am","11am","12pm","1pm","2pm","3pm","4pm","5pm","6pm","7pm","8pm","9pm")) +
+  guides(color = FALSE, size = FALSE) +
+  annotate("text", x=secs, y=1.25, label=mcount) +
+  annotate("text", x=secs, y=2.25, label=tcount) +
+  annotate("text", x=secs, y=3.25, label=wcount) +
+  annotate("text", x=secs, y=4.25, label=rcount) +
+  annotate("text", x=secs, y=5.25, label=fcount) 
+
+```
+
 
 ## Freshmen Info
 
