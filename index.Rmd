@@ -148,10 +148,10 @@ plot + geom_segment(aes(x=m$StartSec,xend=m$EndSec,y=1,yend=1,lwd=5),col="#ff660
  geom_segment(aes(x=w$StartSec,xend=w$EndSec,y=3,yend=3,lwd=5),col="#ff6600") +
  geom_segment(aes(x=r$StartSec,xend=r$EndSec,y=4,yend=4,lwd=5),col="#ff6600") +
  geom_segment(aes(x=f$StartSec,xend=f$EndSec,y=5,yend=5,lwd=5),col="#ff6600") +
-  scale_y_continuous(name="Day", breaks=c(1,2,3,4,5), labels=days) +
+  scale_y_continuous(name="Day", breaks=c(1,2,3,4,5), labels=days,trans = "reverse") +
   scale_x_continuous(name="Time",breaks=secs,
                      labels=c("8am","9am","10am","11am","12pm","1pm","2pm","3pm","4pm","5pm","6pm","7pm","8pm","9pm")) +
-  guides(color = FALSE, size = FALSE) +
+  theme(legend.position = "none") +
   annotate("text", x=secs, y=1.25, label=mcount) +
   annotate("text", x=secs, y=2.25, label=tcount) +
   annotate("text", x=secs, y=3.25, label=wcount) +
