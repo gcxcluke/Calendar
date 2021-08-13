@@ -96,6 +96,35 @@ meets[,1]=as.character(meets[,1])
 print(xtable(meets),type='html',include.rownames=FALSE,sanitize.text.function = function(x){x})
 ```
 
+### 2021 XC
+
+
+#### Season Themes
+
+1. You are good enough
+2. Only worry about what is currently under your control. Control what you can control.
+
+Please show respect for...
+
+1. Yourself
+2. Your teammates and the team
+3. The things we/you DO have
+4. Me
+
+#### Other Info
+
+- Calendar page and BAND
+- Office location change
+- Meeting rooms instead of office meetings
+- Storage unit / new bus loading location
+- On Campus practice meeting location discussion
+- Please follow COVID Guidelines
+- Using Garmin connect
+- Warm up and cool down / stretching
+- I am "retiring" from social media
+- Anything else I forgot when i typed this.
+
+
 ## XC Class Schedule Summary
 
 ```{r echo=FALSE, warning = FALSE,message = FALSE}
