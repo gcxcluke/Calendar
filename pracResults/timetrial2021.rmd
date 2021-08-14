@@ -3,8 +3,9 @@ title: "Time Trial 2021"
 author: "Georgetown College Cross Country"
 date: "8/13/2021"
 output:
-  html_document:
-    toc: TRUE
+  rmdformats::readthedown:
+    highlight: kate
+    toc_depth:  4
     css: style.css
 ---
 
