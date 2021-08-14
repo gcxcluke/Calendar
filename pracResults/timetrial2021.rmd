@@ -1,0 +1,41 @@
+---
+title: "Time Trial 2021"
+author: "Georgetown College Cross Country"
+date: "8/13/2021"
+output:
+  html_document:
+    toc: TRUE
+    css: style.css
+---
+
+
+
+```{r include=FALSE}
+require(knitr)
+require(mosaic)
+require(DT)
+library(xtable)
+
+
+trial=read.csv("TimeTrial2021.csv",header=TRUE)
+names(trial)=c("First","Last","8/24/2018", "Mile Split","8/9/2019", "Mile Split", "1/13/2020", "Mile Split", "8/8/2020", "Mile1", "Mile2", "2/24/2021", "Mile1", "Mile2", "Mile3", "8/13/2021" )
+
+```
+
+## 8/8/2020, Time Trial
+
+- 8/14/2021: 7:00am, Great Crossing Track, 72F 99% humidity
+- 2/24/2021: 2:00pm, Scott Country Track, 58F 27% humidity
+- 8/8/2020: 7:00am, Scott County Track, 68F 50% humidity
+- 1/13/2020: 4:00pm, Scott County Track, 48F 71% humidity
+- 8/9/2019: 7:00am, Scott County Track, 82F 60% humidity
+- 8/24/2018: 7:00am, Scott County Track, 72F 75% humidity
+
+```{r echo=FALSE, results='asis'}
+print(xtable(trial[c(-4,-6,-8,-10,-11,-13,-14,-15)]), type = "html",include.rownames=FALSE)
+```
+
+## With Mile Splits
+```{r echo=FALSE, results='asis'}
+print(xtable(trial), type = "html",include.rownames=FALSE)
+```

@@ -23,25 +23,25 @@ library(googlesheets4)
 library(ggplot2)
 ```
 
+# Latest Update
+
+
+```{r echo="FALSE", results="asis"}
+cat("Updated on:",format(Sys.time(), "%a %b %d %X %Y"))
+```
+
+- Updated caf hours and added Time Trial results
+
 # 2021-2022 Information {.tabset}
 
 ## XC Calendar {.tabset}
 
 Meal Schedule for Aug 14th-Aug 20th:
 
-- Breakfast: 8am-9am, Student Center / Grill
-- Lunch: 11:30am-1:30pm, East Campus Conference Center
+- Breakfast: 7am-8am, Student Center / Grill
+- Lunch: 11:00am-1:00pm, East Campus Conference Center
 - Lunch: 5:30pm-7:30pm, East Campus Conference Center
 
-Move in reminders!
-
-- Masks are required indoors regardless of vaccine status. 
-- If you are fully vaccinated (2 weeks after your final dose of the vaccine), don't forget to upload your card into the portal. 
-- If you are not vaccinated, do not forget to bring your negative test result with when you check in. 
-- I highly suggest you bring these, or a photograph of these, with you for move in and/or physicals. You may not NEED them, but its always good to have just in case.
-  1. Insurance Card
-  2. Vaccine card
-  3. Documentation of clearance from a doctor for any previous injuries / conditions.
 
 Select a month or group below:
 
@@ -57,7 +57,7 @@ tf <- read.xlsx2("Schedule.xlsx",sheetIndex=2,
 
 aug <- data[data$Date<as.Date("2021-09-01"),]
 aug[,1]=as.character(aug[,1])
-print(xtable(aug),type='html',include.rownames=FALSE)
+print(xtable(aug),type='html',include.rownames=FALSE, sanitize.text.function = function(x){x})
 ```
 
 ### September
