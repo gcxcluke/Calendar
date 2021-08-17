@@ -45,7 +45,7 @@ Meal Schedule for Aug 14th-Aug 20th:
 
 
 
-<a href="Calendar/Paces.html" title="Go To Page">Click HERE For Pace charts!</a>
+<a href="Calendar/paces.html" title="Go To Page">Click HERE For Pace charts!</a>
 
 
 Select a month or group below:
