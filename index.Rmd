@@ -247,9 +247,3 @@ print(xtable(aug),type='html',include.rownames=FALSE)
 
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 03adc148414d531b2286084137720ecaff206e2d
-
-
