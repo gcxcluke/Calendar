@@ -44,11 +44,9 @@ Meal Schedule for Aug 14th-Aug 20th:
 - Lunch: 5:30pm-7:30pm, East Campus Conference Center
 
 
-<<<<<<< HEAD
-<a href="Paces.html">Click HERE for Paces!</a>
-=======
+
 <a href="Calendar/Paces.html" title="Go To Page">Click HERE For Pace charts!</a>
->>>>>>> 03adc148414d531b2286084137720ecaff206e2d
+
 
 Select a month or group below:
 
