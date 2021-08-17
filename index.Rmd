@@ -30,7 +30,7 @@ library(ggplot2)
 cat("Updated on:",format(Sys.time(), "%a %b %d %X %Y"))
 ```
 
-- Updated caf hours and added Time Trial results
+- Updated practice Schedule
 
 # 2021-2022 Information {.tabset}
 
