@@ -43,6 +43,8 @@ Meal Schedule for Aug 14th-Aug 20th:
 - Lunch: 5:30pm-7:30pm, East Campus Conference Center
 
 
+<a href="Paces.html">Click HERE for Paces!</a>
+
 Select a month or group below:
 
 ### August
@@ -242,6 +244,6 @@ print(xtable(aug),type='html',include.rownames=FALSE)
 
 
 
-<a href="meetInfo2021.html">Testing</a>
+
 
 
