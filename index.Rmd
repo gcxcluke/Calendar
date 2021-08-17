@@ -30,6 +30,7 @@ library(ggplot2)
 cat("Updated on:",format(Sys.time(), "%a %b %d %X %Y"))
 ```
 
+- Added pace charts
 - Updated practice Schedule
 
 # 2021-2022 Information {.tabset}
@@ -42,6 +43,8 @@ Meal Schedule for Aug 14th-Aug 20th:
 - Lunch: 11:00am-1:00pm, East Campus Conference Center
 - Lunch: 5:30pm-7:30pm, East Campus Conference Center
 
+
+<a href="paces.html">Click HERE For Pace charts!</a>
 
 Select a month or group below:
 
@@ -238,10 +241,10 @@ aug[,1]=as.character(aug[,1])
 print(xtable(aug),type='html',include.rownames=FALSE)
 ```
 
-## Testing
 
 
 
-<a href="meetInfo2021.html">Testing</a>
+
+
 
 
