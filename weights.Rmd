@@ -10,7 +10,6 @@ output:
   pdf_document: default
 ---
 
-Use these tables to figure out your goal paces for runs and workouts.
 
 ```{r include=FALSE}
 require(knitr)
