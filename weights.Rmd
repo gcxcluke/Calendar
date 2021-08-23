@@ -1,0 +1,56 @@
+---
+title: "Weight Plans"
+author: "Georgetown College Cross Country"
+date: "Updated:`r Sys.time()`"
+output:
+  html_document:
+    toc: TRUE
+    toc_float: TRUE
+    css: style.css
+  pdf_document: default
+---
+
+Use these tables to figure out your goal paces for runs and workouts.
+
+```{r include=FALSE}
+require(knitr)
+require(mosaic)
+require(DT)
+require(kableExtra)
+library(xtable)
+library(readxl)
+library(rJava)
+library(xlsx)
+library(googlesheets4)
+library(ggplot2)
+
+
+data <- read.xlsx2("XCTFRoster2122.xlsx",sheetIndex=2)
+
+groups <- data[,1:4]
+exercises <- data[,6:8]
+```
+
+
+Please arrive to weights ON TIME and ready to work. Your first station will be your pairing ID, and you will rotate in numeric order, staying on the same Letter. (So if you are 5A, your first station is 5A, then you go to 6A, 7A, 1A, etc.)
+
+We will have 6-8 minutes in between sessions, making weights last between 42-56 minutes, STAY FOCUSED AND READY TO WORK!
+
+## Exercises
+
+```{r echo=FALSE, results='asis'}
+
+print(xtable(exercises), type = "html",include.rownames=FALSE)
+
+```
+
+300 ABS ON YOUR OWN!!!!
+
+## Groups
+
+```{r echo=FALSE, results='asis'}
+
+print(xtable(groups), type = "html",include.rownames=FALSE)
+
+```
+

@@ -37,15 +37,9 @@ cat("Updated on:",format(Sys.time(), "%a %b %d %X %Y"))
 
 ## XC Calendar {.tabset}
 
-Meal Schedule for Aug 14th-Aug 20th:
-
-- Breakfast: 7am-8am, Student Center / Grill
-- Lunch: 11:00am-1:00pm, East Campus Conference Center
-- Lunch: 5:30pm-7:30pm, East Campus Conference Center
-
-
-
 <a href="paces.html" title="Go To Page">Click HERE For Pace charts!</a>
+
+<a href="weights.html" title="Go To Page">Click HERE for weights schedule!</a>
 
 
 Select a month or group below:
