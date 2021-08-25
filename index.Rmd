@@ -148,6 +148,8 @@ sec2min=function(sec){
 
 classes <- read_sheet("https://docs.google.com/spreadsheets/d/1DXkfPjWrzR2B6EJhWrfwwTLuP4Jd_nQkOExpdl7aXV4/edit?resourcekey#gid=392298842")
 
+classes <- classes[classes$XC=="Yes",]
+
 names(classes)=c("Timestamp","Name", "ClassCode", "ClassName", "MeetingDays", "Start", "End")
 
 classes$Start <- strftime(classes$Start, format="%H:%M", tz="GMT")
