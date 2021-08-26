@@ -30,7 +30,7 @@ library(ggplot2)
 cat("Updated on:",format(Sys.time(), "%a %b %d %X %Y"))
 ```
 
-- Added pace charts
+- updated weights plan
 - Updated practice Schedule
 
 # 2021-2022 Information {.tabset}
