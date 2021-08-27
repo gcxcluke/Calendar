@@ -23,6 +23,22 @@ library(xtable)
     Download file
 </a>
 
+## Meet Location
+
+101 Chestnut St, Berea, KY 40403
+[Google Maps Location](https://g.page/?share)
+
+
+The meet is located in the field directly south of this building
+
 ## Timeline
 
-Coming Soon
+- 3:30pm: Load Bus at football stadium
+- 3:45pm: Depart for Berea
+- 4:45pm: Arrive at Berea 
+- 5:30pm-5:40pm: Women begin warm up
+- 6:00pm-6:10pm: Men begin warm up
+- 6:15pm: Women report to start
+- 6:30pm Women's Race Start
+- 6:45pm: Men report to start
+- 7:00pm Men's Race start

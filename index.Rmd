@@ -111,6 +111,7 @@ print(xtable(prac),type='html',include.rownames=FALSE,sanitize.text.function = f
 
 1. You are good enough
 2. Only worry about what is currently under your control. Control what you can control.
+3. Build character
 
 Please show respect for...
 
@@ -119,18 +120,6 @@ Please show respect for...
 3. The things we/you DO have
 4. Me
 
-#### Other Info
-
-- Calendar page and BAND
-- Office location change
-- Meeting rooms instead of office meetings
-- Storage unit / new bus loading location
-- On Campus practice meeting location discussion
-- Please follow COVID Guidelines
-- Using Garmin connect
-- Warm up and cool down / stretching
-- I am "retiring" from social media
-- Anything else I forgot when i typed this.
 
 
 ## XC Class Schedule Summary
