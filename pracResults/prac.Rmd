@@ -1,0 +1,48 @@
+---
+title: "Practice Results"
+author: "Georgetown College Cross Country"
+date: "Updated:`r Sys.time()`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+    toc_depth:  4
+    css: style.css
+---
+
+
+
+```{r include=FALSE}
+require(knitr)
+require(mosaic)
+require(DT)
+require(kableExtra)
+library(xtable)
+library(readxl)
+library(rJava)
+library(xlsx)
+library(googlesheets4)
+library(ggplot2)
+
+
+data <- read.xlsx2("20210826.xlsx",sheetIndex=1,colClasses=c("character","POSIXct","character","POSIXct","POSIXct","POSIXct","POSIXct"))
+data$Time <- strftime(data$Time, format="%M:%S", tz="GMT")
+data$Pace <- strftime(data$Pace, format="%M:%S", tz="GMT")
+data$HeatAdj.High <- strftime(data$HeatAdj.High, format="%M:%S", tz="GMT")
+data$HeatAdj.Low <- strftime(data$HeatAdj.Low, format="%M:%S", tz="GMT")
+data$Goal <- strftime(data$Goal, format="%M:%S", tz="GMT")
+
+```
+
+## 8/26/2021
+
+Weather: 91F, 60% humidity, Sunny.
+
+Threshold run at Scott County Park.
+
+
+
+```{r echo=FALSE, results='asis'}
+print(xtable(data), type = "html",include.rownames=FALSE)
+```
+
+
