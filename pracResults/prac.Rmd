@@ -33,6 +33,20 @@ data$Goal <- strftime(data$Goal, format="%M:%S", tz="GMT")
 
 ```
 
+
+## 8/30/2021
+
+8x1000m / 5x1000m, Great Crossing
+
+Weather: 72F, 94% Humidity, Clear
+
+```{r echo=FALSE, results='asis'}
+data <- read.csv("20210830.csv",header=TRUE)
+names(data) <- c("Name","1000m","1000m","1000m","1000m","1000m","1000m","1000m","1000m","Total",
+                 "Avg","AvgMile")
+print(xtable(data), type = "html",include.rownames=FALSE)
+```
+
 ## 8/26/2021
 
 Weather: 91F, 60% humidity, Sunny.
@@ -42,6 +56,12 @@ Threshold run at Scott County Park.
 
 
 ```{r echo=FALSE, results='asis'}
+data <- read.xlsx2("20210826.xlsx",sheetIndex=1,colClasses=c("character","POSIXct","character","POSIXct","POSIXct","POSIXct","POSIXct"))
+data$Time <- strftime(data$Time, format="%M:%S", tz="GMT")
+data$Pace <- strftime(data$Pace, format="%M:%S", tz="GMT")
+data$HeatAdj.High <- strftime(data$HeatAdj.High, format="%M:%S", tz="GMT")
+data$HeatAdj.Low <- strftime(data$HeatAdj.Low, format="%M:%S", tz="GMT")
+data$Goal <- strftime(data$Goal, format="%M:%S", tz="GMT")
 print(xtable(data), type = "html",include.rownames=FALSE)
 ```
 
