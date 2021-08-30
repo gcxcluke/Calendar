@@ -31,9 +31,6 @@ exercises <- data[,6:8]
 ```
 
 
-Please arrive to weights ON TIME and ready to work. Your first station will be your pairing ID, and you will rotate in numeric order, staying on the same Letter. (So if you are 5A, your first station is 5A, then you go to 6A, 7A, 1A, etc.)
-
-We will have 6-8 minutes in between sessions, making weights last between 42-56 minutes, STAY FOCUSED AND READY TO WORK!
 
 ## Exercises
 
