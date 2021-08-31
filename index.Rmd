@@ -41,6 +41,11 @@ cat("Updated on:",format(Sys.time(), "%a %b %d %X %Y"))
 
 <a href="weights.html" title="Go To Page">Click HERE for weights schedule!</a>
 
+<a href="StudentTravelRelease.pdf" target="_blank" class="btn btn-lg btn-outline">
+    <i class="fa fa-file-pdf-o"></i>
+    Travel Release form Download
+</a>
+
 
 Select a month or group below:
 
