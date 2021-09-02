@@ -16,7 +16,7 @@ require(DT)
 library(xtable)
 ```
 
-## Berea Centre Jamboree Meet Info
+## 9/3/2021: Berea Centre Jamboree Meet Info
 
 <a href="BC_CC_Jamboree_Information_Sheet.pdf" target="_blank" class="btn btn-lg btn-outline">
     <i class="fa fa-file-pdf-o"></i>
@@ -30,6 +30,13 @@ library(xtable)
 
 
 The meet is located in the field directly south of this building
+
+## Course Map
+
+<a href="BereaMap.pdf" target="_blank" class="btn btn-lg btn-outline">
+    <i class="fa fa-file-pdf-o"></i>
+    Download Maps
+</a>
 
 ## Timeline
 
