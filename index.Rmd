@@ -21,6 +21,11 @@ library(rJava)
 library(xlsx)
 library(googlesheets4)
 library(ggplot2)
+
+data <- read.xlsx2("Schedule.xlsx",sheetIndex=1,
+                  colClasses=c("Date","character","character","character"))
+tf <- read.xlsx2("Schedule.xlsx",sheetIndex=2,
+                  colClasses=c("Date","character","character","character"))
 ```
 
 # Latest Update
@@ -49,20 +54,6 @@ cat("Updated on:",format(Sys.time(), "%a %b %d %X %Y"))
 
 Select a month or group below:
 
-### August
-
-
-```{r echo=FALSE, results='asis'}
-
-data <- read.xlsx2("Schedule.xlsx",sheetIndex=1,
-                  colClasses=c("Date","character","character","character"))
-tf <- read.xlsx2("Schedule.xlsx",sheetIndex=2,
-                  colClasses=c("Date","character","character","character"))
-
-aug <- data[data$Date<as.Date("2021-09-01"),]
-aug[,1]=as.character(aug[,1])
-print(xtable(aug),type='html',include.rownames=FALSE, sanitize.text.function = function(x){x})
-```
 
 ### September
 
@@ -89,6 +80,18 @@ print(xtable(oct),type='html',include.rownames=FALSE,sanitize.text.function = fu
 nov <- data[data$Date<as.Date("2021-12-01") & data$Date>as.Date("2021-10-31"),]
 nov[,1]=as.character(nov[,1])
 print(xtable(nov),type='html',include.rownames=FALSE,sanitize.text.function = function(x){x})
+```
+
+### August
+
+
+```{r echo=FALSE, results='asis'}
+
+
+
+aug <- data[data$Date<as.Date("2021-09-01"),]
+aug[,1]=as.character(aug[,1])
+print(xtable(aug),type='html',include.rownames=FALSE, sanitize.text.function = function(x){x})
 ```
 
 ### Meets

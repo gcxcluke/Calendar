@@ -16,6 +16,10 @@ require(DT)
 library(xtable)
 ```
 
+## RESULTS
+
+[Results Link](https://www.tfrrs.org/results/xc/17833/5th_Annual_BC_CC_Jamboree)
+
 ## 9/3/2021: Berea Centre Jamboree Meet Info
 
 <a href="BC_CC_Jamboree_Information_Sheet.pdf" target="_blank" class="btn btn-lg btn-outline">
