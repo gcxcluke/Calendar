@@ -39,8 +39,7 @@ exercises <- data[,6:8]
 print(xtable(exercises), type = "html",include.rownames=FALSE)
 
 ```
-
-300 ABS ON YOUR OWN!!!!
+!
 
 ## Groups
 
