@@ -18,11 +18,18 @@ library(xtable)
 
 ## Information
 
-<a href="Asbury.pdf" target="_blank" class="btn btn-lg btn-outline">
+<a href="Drakes.pdf" target="_blank" class="btn btn-lg btn-outline">
     <i class="fa fa-file-pdf-o"></i>
     Download file
 </a>
 
 ## Timeline
 
-Coming Soon
+- Load Bus on East Campus between football and baseball fields: 1:10pm EDT
+- Depart for Bowling Grren, KY: 1:20pm EDT
+- Rest Room Break
+- Arrive at Phil Moore Park: 4:20pm EDT
+- Women's 5k: 5:45pm EDT
+- Men's 8k: 6:30pm EDT
+
+NOTE: The meet s in the CENTRAL Time Zone. All times listed here are EASTERN. 
