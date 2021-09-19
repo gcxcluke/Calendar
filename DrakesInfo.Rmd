@@ -18,11 +18,29 @@ library(xtable)
 
 ## Information
 
-<a href="Asbury.pdf" target="_blank" class="btn btn-lg btn-outline">
+<a href="Drakes.pdf" target="_blank" class="btn btn-lg btn-outline">
     <i class="fa fa-file-pdf-o"></i>
     Download file
 </a>
 
 ## Timeline
 
-Coming Soon
+- Load Bus on East Campus between football and baseball fields: 1:10pm EDT
+- Depart for Bowling Grren, KY: 1:20pm EDT
+- Rest Room Break
+- Arrive at Phil Moore Park: 4:20pm EDT
+- Women's 5k: 5:45pm EDT
+- Men's 8k: 6:30pm EDT
+
+NOTE: The meet s in the CENTRAL Time Zone. All times listed here are EASTERN. 
+
+## Maps
+
+Men
+
+<iframe id='mapmyfitness_route' src='https://www.mapmyrun.com/routes/view/embedded/4638244486?width=600&height=400&&line_color=E68006c6&rgbhex=c60680&distance_markers=1&unit_type=imperial&map_mode=SATELLITE&show_marker_every=1&last_updated=2021-09-16T19:38:52+00:00' height='400px' width='100%' frameborder='0'></iframe><div style="padding-left:8px;padding-top:8px;padding-bottom:8px"><a target="_blank" rel="noopener noreferrer" href="https://www.mapmyrun.com/routes/view/4638244486">More Details</a></div>
+
+
+Women
+
+<iframe id='mapmyfitness_route' src='https://www.mapmyrun.com/routes/view/embedded/4638255613?width=600&height=400&&line_color=E68006c6&rgbhex=c60680&distance_markers=0&unit_type=imperial&map_mode=SATELLITE&show_marker_every=1&last_updated=2021-09-16T19:47:20+00:00' height='400px' width='100%' frameborder='0'></iframe><div style="padding-left:8px;padding-top:8px;padding-bottom:8px"><a target="_blank" rel="noopener noreferrer" href="https://www.mapmyrun.com/routes/view/4638255613">More Details</a></div>
