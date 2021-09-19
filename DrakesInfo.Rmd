@@ -13,8 +13,29 @@ output:
 require(knitr)
 require(mosaic)
 require(DT)
+require(kableExtra)
 library(xtable)
+library(readxl)
+library(rJava)
+library(xlsx)
+library(googlesheets4)
+library(ggplot2)
 ```
+
+## Splits
+
+Men's 3rd and 4th lap split is an estimate based on the time from mile 2 to mile 4. Women's 3 mile and final 0.11 are also estimates, but should be more accurate than the men.
+
+```{r echo=FALSE, results='asis'}
+data <- read.xlsx2("meetsplits.xlsx",sheetIndex=1,colClasses=c("character","POSIXct","POSIXct","POSIXct","POSIXct","POSIXct"))
+data$One <- strftime(data$One, format="%M:%S", tz="GMT")
+data$Two <- strftime(data$Two, format="%M:%S", tz="GMT")
+data$Three  <- strftime(data$Three, format="%M:%S", tz="GMT")
+data$Four <- strftime(data$Four, format="%M:%S", tz="GMT")
+data$Five <- strftime(data$Five, format="%M:%S", tz="GMT")
+print(xtable(data), type = "html",include.rownames=FALSE)
+```
+
 
 ## Information
 
