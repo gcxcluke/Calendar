@@ -18,11 +18,14 @@ library(xtable)
 
 ## Information
 
-<a href="Asbury.pdf" target="_blank" class="btn btn-lg btn-outline">
-    <i class="fa fa-file-pdf-o"></i>
-    Download file
-</a>
+[Live in Louisville Classic Link](https://loucrosscountryclassic.com/faq)
 
 ## Timeline
 
-Coming Soon
+- 7:30am: Load Bus at east campus
+- 7:45am: Bus Depart to Tom Sawyer Park
+- 9:00am: Arrive at Tom Sawyer Park
+- 10:45am: Men's Blue Race
+- 11:30am: Women's Blue Race
+- 1:30pm - 3:00pm: HS Races
+
