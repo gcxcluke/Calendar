@@ -29,3 +29,7 @@ library(xtable)
 - 11:30am: Women's Blue Race
 - 1:30pm - 3:00pm: HS Races
 
+## Maps
+
+[8k Map](https://loucrosscountryclassic.com/wp-content/uploads/2016/05/2017-08-06-Men-8K-Course-Color-Reduced.pdf)
+[5k Map](https://loucrosscountryclassic.com/wp-content/uploads/2016/05/2018-Course-Map-XC-5K-reduced.pdf)
