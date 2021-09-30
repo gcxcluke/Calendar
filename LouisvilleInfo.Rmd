@@ -20,6 +20,9 @@ library(xtable)
 
 [Live in Louisville Classic Link](https://loucrosscountryclassic.com/faq)
 
+- MEN ARE BOX 42
+- WOMEN ARE BOX 10
+
 ## Timeline
 
 - 7:30am: Load Bus at east campus
@@ -33,3 +36,82 @@ library(xtable)
 
 [8k Map](https://loucrosscountryclassic.com/wp-content/uploads/2016/05/2017-08-06-Men-8K-Course-Color-Reduced.pdf)
 [5k Map](https://loucrosscountryclassic.com/wp-content/uploads/2016/05/2018-Course-Map-XC-5K-reduced.pdf)
+
+## Teams in our Race
+
+- Men: 64 teams represented
+- Women: 63 teams represented
+
+- Alice Lloyd
+- Aquinas
+- Asbury
+- Auburn Montgomery
+- Blue Mountain
+- Bethel (Indiana)
+- Bowling Green (Men Only)
+- Cambellsville
+- Centre "B"
+- Cumberland
+- Cumberlands
+- Dalton state (Women Only)
+- Depauw "B"
+- Detroit Mercy (Women Only)
+- Earlham (Men Only)
+- Evansville
+- Ferris State
+- Franklin "B"
+- Freed-Hardeman "B"
+- Georgetown (Ky)
+- Goshen
+- Grace
+- Grand Valley State "B"
+- Hanover "B" (Women Only)
+- Hope "B"
+- Indiana East
+- Indiana Kokomo
+- Indianapolis
+- Kentucky Christian
+- Kentucky State
+- Kentucky Wesleyan (Women Only)
+- Lawrence Tech
+- Lewis
+- Lincoln Memorial
+- Lindsey Wilson
+- Madonna
+- Marian (Indiana)
+- Marshall
+- Michigan-Dearborn
+- Midway
+- Morehead State
+- Mount Union "B"
+- New Orleans (women Only)
+- North Central (Men Only)
+- Northern Kentucky
+- Oakland City
+- Ohio Christian
+- Piedmont "B" (Men Only)
+- Purdue Fort Wayne
+- Purdue Northeast
+- Radford (Men Only)
+- Rhodes "B" (Men only)
+- IU Run club
+- Southeast Missouri
+- Shawnee State
+- SIU Edwardsville
+- Southern virginia "B" (Men only)
+- Spring arbor
+- St. Bonnaventure (Women Only)
+- St. Francis (Indiana)
+- St. Xavier
+- Thomas More
+- Transylvania (Women Only)
+- UAB (Women Only)
+- Union (Tenn)
+- USC Upstate
+- UT Southern
+- Vincennes
+- Wabash "B" (Men Only)
+- Western Kentucky (Men Only)
+- William Carey
+- Wilmington (Ohio) "B" 
+- 
