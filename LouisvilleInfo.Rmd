@@ -114,4 +114,21 @@ library(xtable)
 - Western Kentucky (Men Only)
 - William Carey
 - Wilmington (Ohio) "B" 
+
+## Recruits
+
+All have visited or have visits scheduled. 
+
+- Hope Harris | Ashland
+- Taylor Booher | Montgomery
+- Riley Gillis | Franklin
+- Kierra Carlee | Franklin
+- Emma Campbell | Western Hills
+
+- Haven Birchall | Ryle
+- Jacob Line | Ryle
+- Tre Troxler | Ashland
+- Joel McCain | Williamstown
+- Noah stinson | Homeschool (2023)
+- Caleb Stinson | Homeschool (2023)
 - 
