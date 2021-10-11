@@ -18,11 +18,16 @@ library(xtable)
 
 ## Information
 
-<a href="Asbury.pdf" target="_blank" class="btn btn-lg btn-outline">
+<a href="2021_JennaStrong_Fall_Classic_Meet_Information.pdf" target="_blank" class="btn btn-lg btn-outline">
     <i class="fa fa-file-pdf-o"></i>
     Download file
 </a>
 
 ## Timeline
 
-Coming Soon
+- 12:00pm | Load Bus at Stadium
+- 12:15pm | Depart for Wilmington College
+- 3:00pm | Arrive at Wilmington, College
+- 4:30pm | Women's 5k
+- 5:15pm | Men's 8k
+- 7:00pm | Depart for home
