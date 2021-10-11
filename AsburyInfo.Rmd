@@ -26,3 +26,26 @@ library(xtable)
 ## Timeline
 
 Coming Soon
+
+## Teams
+
+As of 10/11/2021
+
+	
+- Alice Lloyd (W)
+- Alice Lloyd (M)
+- Asbury University (W)
+- Asbury University (M)
+- Bellarmine (W)
+- Georgetown (Ky.) (W)
+- Georgetown (Ky.) (M)
+- Kentucky Elite (M)
+- Midway (W)
+- Midway (M)
+- Pikeville (W)
+- Pikeville (M)
+- Rio Grande (M)
+- UC Running Club (M)
+- Union (Ky.) (M)
+- Welch (W)
+- Welch (M)
