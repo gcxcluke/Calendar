@@ -23,6 +23,17 @@ library(xtable)
     Download file
 </a>
 
+[Live Results](http://live.finishtiming.com/meets/440268/events) \
+
+[Finish Line Video **TENTATIVE**](https://boxcast.tv/view/jennastrong-fall-classic-finish-line-733313)
+
+
+## Maps
+
+[Men's 8k](http://www.wilmingtonquakers.com/sports/mxc/Men-s_8-Kilometer_Course.pdf) \
+
+[Women's 5k](http://www.wilmingtonquakers.com/sports/wxc/Women-s_5-Kilometer_Course.pdf)
+
 ## Timeline
 
 - 12:00pm | Load Bus at Stadium
