@@ -55,14 +55,6 @@ cat("Updated on:",format(Sys.time(), "%a %b %d %X %Y"))
 Select a month or group below:
 
 
-### September
-
-```{r echo=FALSE, results='asis'}
-
-sept <- data[data$Date<as.Date("2021-10-01") & data$Date>as.Date("2021-08-31"),]
-sept[,1]=as.character(sept[,1])
-print(xtable(sept),type='html',include.rownames=FALSE,sanitize.text.function = function(x){x})
-```
 
 ### October
 
@@ -93,6 +85,16 @@ aug <- data[data$Date<as.Date("2021-09-01"),]
 aug[,1]=as.character(aug[,1])
 print(xtable(aug),type='html',include.rownames=FALSE, sanitize.text.function = function(x){x})
 ```
+
+### September
+
+```{r echo=FALSE, results='asis'}
+
+sept <- data[data$Date<as.Date("2021-10-01") & data$Date>as.Date("2021-08-31"),]
+sept[,1]=as.character(sept[,1])
+print(xtable(sept),type='html',include.rownames=FALSE,sanitize.text.function = function(x){x})
+```
+
 
 ### Meets
 

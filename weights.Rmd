@@ -24,28 +24,18 @@ library(googlesheets4)
 library(ggplot2)
 
 
-data <- read.xlsx2("XCTFRoster2122.xlsx",sheetIndex=2)
-
-groups <- data[,1:4]
-exercises <- data[,6:8]
 ```
 
 
 
 ## Exercises
 
-```{r echo=FALSE, results='asis'}
+- [Monster Walks 3x10 (Each leg 20 total per set)](https://www.youtube.com/watch?v=O_GEUdxQETA)
+- [Side Steps 3x25 each way](https://www.youtube.com/watch?v=X0jsl2ZrXug)
+- [Banded single leg glute Bridge 3x10 Each](https://www.youtube.com/watch?v=HeAkXWob2UU)
+- [Nordic Hamstring Curl 3x8](https://www.youtube.com/watch?v=v_Egn_3CCsM)
+- Push ups 50 Total
+- Dips 3x20
+- Curls 3x20 Each
 
-print(xtable(exercises), type = "html",include.rownames=FALSE)
-
-```
-!
-
-## Groups
-
-```{r echo=FALSE, results='asis'}
-
-print(xtable(groups), type = "html",include.rownames=FALSE)
-
-```
-
+500 Abs
