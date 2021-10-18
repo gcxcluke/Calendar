@@ -23,14 +23,24 @@ library(xtable)
     Download file
 </a>
 
+## Location 
+
+Asbury University Soccer Field, Asbury University, 1 Macklem Dr, Wilmore, KY 40390
+
 ## Timeline
 
-Coming Soon
+Load Bus at Football Stadium: 8:10am
+Depart for Meet: 8:30am
+Arrive at meet: 9:30am
+Women's 5k: 11:00am
+Men's 8k: 11:45am
+Depart for home: 1:00pm
 
 ## Teams
 
-As of 10/11/2021
+As of 10/18/2021
 
+	
 	
 - Alice Lloyd (W)
 - Alice Lloyd (M)
@@ -42,10 +52,13 @@ As of 10/11/2021
 - Kentucky Elite (M)
 - Midway (W)
 - Midway (M)
+- Mount St. Joseph (W)
+- Mount St. Joseph (M)
 - Pikeville (W)
 - Pikeville (M)
 - Rio Grande (M)
 - UC Running Club (M)
+- Union (Ky.) (W)
 - Union (Ky.) (M)
 - Welch (W)
 - Welch (M)
