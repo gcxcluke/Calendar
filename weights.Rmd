@@ -32,7 +32,7 @@ library(ggplot2)
 
 - [Monster Walks 3x10 (Each leg 20 total per set)](https://www.youtube.com/watch?v=O_GEUdxQETA)
 - [Side Steps 3x25 each way](https://www.youtube.com/watch?v=X0jsl2ZrXug)
-- [Banded single leg glute Bridge 3x10 Each](https://www.youtube.com/watch?v=HeAkXWob2UU)
+- [Banded Clam Shells 3x20 each](https://www.youtube.com/watch?v=HeAkXWob2UU)
 - [Nordic Hamstring Curl 3x8](https://www.youtube.com/watch?v=v_Egn_3CCsM)
 - Push ups 50 Total
 - Dips 3x20
