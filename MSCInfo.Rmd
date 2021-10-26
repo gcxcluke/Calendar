@@ -18,7 +18,7 @@ library(xtable)
 
 ## Information
 
-There is no "Banquet" this year. We will instead have a 30 minute window for the team to go get food and pickup any awards we recieved.
+There is no "Banquet" this year. We will instead have a 30 minute window for the team to go get food and pickup any awards we received.
 
 ## Timeline
 
