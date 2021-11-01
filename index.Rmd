@@ -56,14 +56,6 @@ Select a month or group below:
 
 
 
-### October
-
-```{r echo=FALSE, results='asis'}
-
-oct <- data[data$Date<as.Date("2021-11-01") & data$Date>as.Date("2021-09-30"),]
-oct[,1]=as.character(oct[,1])
-print(xtable(oct),type='html',include.rownames=FALSE,sanitize.text.function = function(x){x})
-```
 
 ### November
 
@@ -93,6 +85,15 @@ print(xtable(aug),type='html',include.rownames=FALSE, sanitize.text.function = f
 sept <- data[data$Date<as.Date("2021-10-01") & data$Date>as.Date("2021-08-31"),]
 sept[,1]=as.character(sept[,1])
 print(xtable(sept),type='html',include.rownames=FALSE,sanitize.text.function = function(x){x})
+```
+
+### October
+
+```{r echo=FALSE, results='asis'}
+
+oct <- data[data$Date<as.Date("2021-11-01") & data$Date>as.Date("2021-09-30"),]
+oct[,1]=as.character(oct[,1])
+print(xtable(oct),type='html',include.rownames=FALSE,sanitize.text.function = function(x){x})
 ```
 
 
