@@ -65,4 +65,12 @@ data$Goal <- strftime(data$Goal, format="%M:%S", tz="GMT")
 print(xtable(data), type = "html",include.rownames=FALSE)
 ```
 
+## Season Summary 
+
+```{r echo=FALSE, results='asis'}
+
+data <- read.csv("estimate.csv", header=TRUE)
+print(xtable(data), type = "html",include.rownames=FALSE)
+```
+
 
