@@ -1,0 +1,38 @@
+---
+title: "Georgetown College Track & Field Meet Information"
+author: "Luke Garnett"
+date: "Updated:`r Sys.time()`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+    toc_depth:  4
+    css: style.css
+---
+
+```{r include=FALSE}
+require(knitr)
+require(mosaic)
+require(DT)
+library(xtable)
+```
+
+
+
+## 4/8/2022 - 4/9/2022: Pepsi University of the Cumberlands Invitational
+
+<a href="" target="_blank" class="btn btn-lg btn-outline">
+    <i class="fa fa-file-pdf-o"></i>
+    Download file (Coming Soon)
+</a>
+
+## Meet Location
+
+81 Rant St, Williamsburg, KY 40769
+
+[Google Maps Location](https://goo.gl/maps/uJFrGUBvMaZK9smv6)
+
+
+
+## Timeline
+
+Comming Soon

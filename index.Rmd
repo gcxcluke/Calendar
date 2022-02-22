@@ -22,29 +22,26 @@ library(xlsx)
 library(googlesheets4)
 library(ggplot2)
 
-data <- read.xlsx2("Schedule.xlsx",sheetIndex=1,
+data1 <- read.xlsx2("Schedule.xlsx",sheetIndex=1,
                   colClasses=c("Date","character","character","character"))
-tf <- read.xlsx2("Schedule.xlsx",sheetIndex=2,
+data <- read.xlsx2("Schedule.xlsx",sheetIndex=2,
                   colClasses=c("Date","character","character","character"))
 ```
 
 # Latest Update
 
+- Track & Field Schedule Update
 
 ```{r echo=FALSE, results="asis"}
 cat("Updated on:",format(Sys.time(), "%a %b %d %X %Y"))
 ```
 
-- updated weights plan
-- Updated practice Schedule
 
 # 2021-2022 Information {.tabset}
 
-## XC Calendar {.tabset}
+## TF Calendar {.tabset}
 
-<a href="paces.html" title="Go To Page">Click HERE For Pace charts!</a>
-
-<a href="weights.html" title="Go To Page">Click HERE for weights schedule!</a>
+<a href="paces.html" title="Go To Page">Click HERE For Pace Distance Runner charts!</a>
 
 <a href="StudentTravelRelease.pdf" target="_blank" class="btn btn-lg btn-outline">
     <i class="fa fa-file-pdf-o"></i>
@@ -57,41 +54,41 @@ Select a month or group below:
 
 
 
-### November
+### Feb
 
 ```{r echo=FALSE, results='asis'}
 
-nov <- data[data$Date<as.Date("2021-12-01") & data$Date>as.Date("2021-10-31"),]
-nov[,1]=as.character(nov[,1])
-print(xtable(nov),type='html',include.rownames=FALSE,sanitize.text.function = function(x){x})
+feb <- data[data$Date<as.Date("2022-3-01"),]
+feb[,1]=as.character(feb[,1])
+print(xtable(feb),type='html',include.rownames=FALSE,sanitize.text.function = function(x){x})
 ```
 
-### August
+### March
 
 
 ```{r echo=FALSE, results='asis'}
 
 
 
-aug <- data[data$Date<as.Date("2021-09-01"),]
+aug <- data[data$Date<as.Date("2022-04-01") & data$Date>as.Date("2022-02-28"),]
 aug[,1]=as.character(aug[,1])
 print(xtable(aug),type='html',include.rownames=FALSE, sanitize.text.function = function(x){x})
 ```
 
-### September
+### April
 
 ```{r echo=FALSE, results='asis'}
 
-sept <- data[data$Date<as.Date("2021-10-01") & data$Date>as.Date("2021-08-31"),]
+sept <- data[data$Date<as.Date("2022-05-01") & data$Date>as.Date("2021-03-31"),]
 sept[,1]=as.character(sept[,1])
 print(xtable(sept),type='html',include.rownames=FALSE,sanitize.text.function = function(x){x})
 ```
 
-### October
+### May
 
 ```{r echo=FALSE, results='asis'}
 
-oct <- data[data$Date<as.Date("2021-11-01") & data$Date>as.Date("2021-09-30"),]
+oct <- data[data$Date<as.Date("2022-06-01") & data$Date>as.Date("2022-04-30"),]
 oct[,1]=as.character(oct[,1])
 print(xtable(oct),type='html',include.rownames=FALSE,sanitize.text.function = function(x){x})
 ```
@@ -106,6 +103,7 @@ meets[,1]=as.character(meets[,1])
 print(xtable(meets),type='html',include.rownames=FALSE,sanitize.text.function = function(x){x})
 ```
 
+
 ### Practice Results
 
 ```{r echo=FALSE, results='asis'}
@@ -114,23 +112,6 @@ prac <- data[data$Type=="Practice",]
 prac[,1]=as.character(prac[,1])
 print(xtable(prac),type='html',include.rownames=FALSE,sanitize.text.function = function(x){x})
 ```
-
-### 2021 XC
-
-
-#### Season Themes
-
-1. You are good enough
-2. Only worry about what is currently under your control. Control what you can control.
-3. Build character
-
-Please show respect for...
-
-1. Yourself
-2. Your teammates and the team
-3. The things we/you DO have
-4. Me
-
 
 
 ## XC Class Schedule Summary
@@ -228,16 +209,6 @@ If you have any issues with the forms, please email Stacee at: stacee_gibson@geo
 
 Physicals will be FREE and they must be performed by a doctors that GC's insurance has approved in order for you to be covered by GC insurance. (We are partnered with UK Healthcare, so you will be seen by UK Healthcare doctors) Your physical cannot be completed unless you have filled out the forms!
 
-
-## TF Calendar
-
-
-```{r echo=FALSE, results='asis'}
-
-aug <- tf[tf$Date<as.Date("2021-09-01"),]
-aug[,1]=as.character(aug[,1])
-print(xtable(aug),type='html',include.rownames=FALSE)
-```
 
 
 
