@@ -20,9 +20,9 @@ library(xtable)
 
 ## 3/18/2022-3/19/2022: Transy Invitational
 
-<a href="" target="_blank" class="btn btn-lg btn-outline">
+<a href="Transy.pdf" target="_blank" class="btn btn-lg btn-outline">
     <i class="fa fa-file-pdf-o"></i>
-    Download file (Coming Soon)
+    Download file
 </a>
 
 ## Meet Location
