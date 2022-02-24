@@ -1,0 +1,38 @@
+---
+title: "Georgetown College Track & Field Meet Information"
+author: "Luke Garnett"
+date: "Updated:`r Sys.time()`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+    toc_depth:  4
+    css: style.css
+---
+
+```{r include=FALSE}
+require(knitr)
+require(mosaic)
+require(DT)
+library(xtable)
+```
+
+
+
+## 4/15/2022: Brescia Invitational
+
+<a href="BresciaTF.pdf" target="_blank" class="btn btn-lg btn-outline">
+    <i class="fa fa-file-pdf-o"></i>
+    Download file
+</a>
+
+## Meet Location
+
+2280 Tamarack Rd, Owensboro, KY 42301
+
+[Google Maps Location](https://goo.gl/maps/V7MUbFDppA1RPLXo6)
+
+
+
+## Timeline
+
+Comming Soon

@@ -1,0 +1,39 @@
+---
+title: "Georgetown College Track & Field Meet Information"
+author: "Luke Garnett"
+date: "Updated:`r Sys.time()`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+    toc_depth:  4
+    css: style.css
+---
+
+```{r include=FALSE}
+require(knitr)
+require(mosaic)
+require(DT)
+library(xtable)
+```
+
+
+
+## 5/14/2022: Lee University Last Chance
+
+<a href="LeeInfo.pdf" target="_blank" class="btn btn-lg btn-outline">
+    <i class="fa fa-file-pdf-o"></i>
+    Download file
+</a>
+
+## Meet Location
+
+23rd St NE & Parker St NE
+Cleveland, TN 37311
+
+[Google Maps Location](https://goo.gl/maps/sSN2mxJVEdN3SC8M7)
+
+
+
+## Timeline
+
+Comming Soon
