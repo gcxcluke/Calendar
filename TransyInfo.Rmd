@@ -35,4 +35,18 @@ library(xtable)
 
 ## Timeline
 
-Comming Soon
+Event Schedule in the download link above.
+
+### Friday March 18th (Javelin and 10k ONLY)
+
+- 3:15:pm | Depart for Transy
+- 5:00pm | Javelin
+- 7:00pm | 10k
+
+
+### Saturday March 19th
+
+- 8:30am | Depart for Transy
+- 10:00an | Field Events begin
+- 11:00am | Track Events begin
+- 6:25pm | Final Scheduled event
