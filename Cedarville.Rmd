@@ -1,0 +1,43 @@
+---
+title: "Georgetown College Track & Field Meet Information"
+author: "Luke Garnett"
+date: "Updated:`r Sys.time()`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+    toc_depth:  4
+    css: style.css
+---
+
+```{r include=FALSE}
+require(knitr)
+require(mosaic)
+require(DT)
+library(xtable)
+```
+
+
+
+## 3/18/2022-3/19/2022: Transy Invitational
+
+<a href="cedarville.pdf" target="_blank" class="btn btn-lg btn-outline">
+    <i class="fa fa-file-pdf-o"></i>
+    Download file
+</a>
+
+## Meet Location
+
+301 Varsity Drive, Cedarville, OH 45314
+
+[Google Maps Location](https://goo.gl/maps/bNeUUW7BBLZrrYpc8)
+
+
+
+## Timeline
+
+Event Schedule in the download link above.
+
+- 6:45am | Depart for Cedarville from Football stadium
+- 10:00an | Field Events begin
+- 10:00am | Track Events begin
+
