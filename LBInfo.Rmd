@@ -20,9 +20,9 @@ library(xtable)
 
 ## 4/2/2022: Landon Bond Invitational
 
-<a href="" target="_blank" class="btn btn-lg btn-outline">
+<a href="LB.pdf" target="_blank" class="btn btn-lg btn-outline">
     <i class="fa fa-file-pdf-o"></i>
-    Download file (Coming Soon)
+    Download file
 </a>
 
 ## Meet Location
@@ -35,4 +35,9 @@ Campus Dr, Berea, KY 404038
 
 ## Timeline
 
-Comming Soon
+- 8:00am: Depart from east campus football stadium
+- 10:00am: Combined 10k
+- 11:00am: Field Events begin, Women's Steeple
+- 11:15am: Men's Steeple
+- 11:45am: Women's 4x100m Relay
+- Rolling Schedule after the 4x100m
