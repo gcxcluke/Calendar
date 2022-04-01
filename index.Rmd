@@ -48,6 +48,7 @@ cat("Updated on:",format(Sys.time(), "%a %b %d %X %Y"))
     Travel Release form Download
 </a>
 
+<a href="https://forms.gle/RNQ7pa1RwmE6e2ncA">Missed Practice Request Form</a>
 
 Select a month or group below:
 
