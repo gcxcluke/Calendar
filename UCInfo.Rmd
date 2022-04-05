@@ -20,9 +20,9 @@ library(xtable)
 
 ## 4/8/2022 - 4/9/2022: Pepsi University of the Cumberlands Invitational
 
-<a href="" target="_blank" class="btn btn-lg btn-outline">
+<a href="Home_Meet_Info2022" target="_blank" class="btn btn-lg btn-outline">
     <i class="fa fa-file-pdf-o"></i>
-    Download file (Coming Soon)
+    Download file
 </a>
 
 ## Meet Location
@@ -35,4 +35,4 @@ library(xtable)
 
 ## Timeline
 
-Comming Soon
+Coming Soon
