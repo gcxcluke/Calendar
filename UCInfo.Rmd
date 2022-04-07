@@ -35,4 +35,90 @@ library(xtable)
 
 ## Timeline
 
-Coming Soon
+### Friday April 8th
+
+- 9:00am | Minivan departs (Bolton, JLand, Raybourne, Sheroan, Steely, Freeman)
+- 11:00am | Minivan arrives at UC
+- 12:00pm | Dec begins
+- 3:00pm | Bus departs from stadium
+- 5:00pm | Bus arrives at UC
+- 6:30pm | 3k steeple
+- 8:40pm | Men's 5k ends
+- 9:00pm | Bus departs for GC
+- 11:00pm | Bus arrive home
+
+#### Saturday April 9th
+
+- 7:30am | Minivan departs
+- 7:45am | Minivan arrives
+- 8:00am | Bus Departs from football stadium
+- 9:00am | Dec Day 2 Begins
+- 10:00am | Bus arrives at UC
+- 11:00am | 4x100m / HJ begins
+- 3:40pm | Men's 200m ends
+- 4:00pm | Depart for home
+
+### Meet Schedule
+
+#### Friday April 8th
+
+Multi’s
+
+- 12:00pm Decathlon/Heptathlon Day 1 Start
+
+Friday Field Events
+
+- 3:00pm	Men’s Hammer followed by women’s 
+- 3:00 pm Women’s Javelin followed by the men’s
+- 4:00 pm Women’s Pole Vault then Men’s
+- 4:00 pm	Women’s Long Jump followed by Men’s
+
+Friday Running Events
+
+- 6:00pm	Women’s 4 X 800 Relay
+- 6:15pm	Men’s 4 X 800 Relay
+- 6:30 pm Women’s 3k Steeple 
+- 7:00 pm Men’s 3k Steeple
+- 7:20 pm Women’s 1500m
+- 7:40 pm Men’s 1500m
+- 8:00pm	Women’s 5k 				
+- 8:25pm Men’s 5k *Our Final Event*
+- 8:45pm WOMEN’S 10K 
+- 9:30pm MEN”S 10K
+
+#### Saturday April, 9th
+Multi’s
+
+- 9:00 AM Decathlon/Heptathlon Day 2 Start
+
+Field Events
+
+- 10:00 AM Men Shot Put then Women
+- 11:00 AM Women Triple Jump then Men
+- 11:00 AM Women High Jump then Men
+- 12:00 PM Men Discus then Women	
+
+Running Events
+
+- 9:00 AM	 Decathlon/Heptathlon Day 2 Start			
+- 9:05 AM	Women’s 5k Race Walk
+- 10:00 AM Men’s 5k Race Walk
+- 11:00AM Women’s 4x100
+- 11:05 AM Men’s 4x100
+- 11:40 PM Women’s 100H 				
+- 11:55 PM Men’s 110H					
+- 12:00 PM Senior Recognition		
+- 12:30 PM Women’s 400m 	 
+- 12:40 PM Men’s 400m 
+- 1:00 PM	 Women’s 100m 
+- 1:20 PM	 Men’s 100m 
+- 1:40 PM	 Women’s 800m 
+- 2:00 PM	 Men’s 800m 
+- 2:30 PM	 Women’s 400m H 
+- 2:40 PM	  Men’s 400m H 
+- 2:55 PM	 Women’s 200m 
+- 3:15 PM	 Men’s 200m *Our FInal Event* 
+- 3:45 PM	 Women’s DMR 
+- 4:00 PM	 Men’s DMR 
+- 4:15 PM	 Women’s 4x400 
+- 4:20 PM	 Men’s 4x400 
