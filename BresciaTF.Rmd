@@ -25,6 +25,8 @@ library(xtable)
     Download file
 </a>
 
+**Updated Schedule is Below**
+
 ## Meet Location
 
 2280 Tamarack Rd, Owensboro, KY 42301
