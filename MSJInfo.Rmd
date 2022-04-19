@@ -20,7 +20,7 @@ library(xtable)
 
 ## 4/23/2022: MSJ Invite
 
-<a href="MSJ" target="_blank" class="btn btn-lg btn-outline">
+<a href="MSJ.pdf" target="_blank" class="btn btn-lg btn-outline">
     <i class="fa fa-file-pdf-o"></i>
     Download file
 </a>
