@@ -1,0 +1,41 @@
+---
+title: "Georgetown College Track & Field Meet Information"
+author: "Luke Garnett"
+date: "Updated:`r Sys.time()`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+    toc_depth:  4
+    css: style.css
+---
+
+```{r include=FALSE}
+require(knitr)
+require(mosaic)
+require(DT)
+library(xtable)
+```
+
+
+
+## 4/23/2022: MSJ Invite
+
+<a href="MSJ" target="_blank" class="btn btn-lg btn-outline">
+    <i class="fa fa-file-pdf-o"></i>
+    Download file
+</a>
+
+## Meet Location
+
+5701 DELHI ROAD, CINCINNATI, OHIO 45233
+
+[Google Maps Location](https://goo.gl/maps/xqZ8jszNiHZ6jga66)
+
+
+
+## Timeline
+
+- 8:45am | Depart from east campus
+- 10:15am | Arrive at meet
+- 11:30am | Field Events Begin
+- 1:00pm | Track Events Begin

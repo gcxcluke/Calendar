@@ -1,0 +1,84 @@
+---
+title: "Georgetown College Track & Field Meet Information"
+author: "Luke Garnett"
+date: "Updated:`r Sys.time()`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+    toc_depth:  4
+    css: style.css
+---
+
+```{r include=FALSE}
+require(knitr)
+require(mosaic)
+require(DT)
+library(xtable)
+```
+
+
+
+## 4/15/2022: Brescia Invitational
+
+<a href="BresciaTF.pdf" target="_blank" class="btn btn-lg btn-outline">
+    <i class="fa fa-file-pdf-o"></i>
+    Download file
+</a>
+
+**Updated Schedule is Below**
+
+## Meet Location
+
+2280 Tamarack Rd, Owensboro, KY 42301
+
+[Google Maps Location](https://goo.gl/maps/V7MUbFDppA1RPLXo6)
+
+
+
+## Timeline
+
+- 10:45am EDT 9:45am CDT | Depart from East Campus Stadium
+- 1:30pm EDT 12:30pm CDT | Arrive at Venue
+- 3:00 EDT 2:00 CDT | Meet Begins
+
+### Meet Schedule
+
+ALL TIMES CENTRAL!!!!!!!!
+
+Field Events
+
+- 2:15pm Mens Shot Put followed by Womens Shot Put
+- 2:15pm Womens Discus followed by Mens Discus
+- 2:15 pm Mens Long Jump (North Pit) followed by Mens Triple Jump (North Pit)
+- 2:15 pm Womens Long Jump (South Pit) followed by Womens Triple Jump (South Pit)
+- 2:15 pm Womens High Jump - beginning height 1.35m (4’5”)
+followed by Mens High Jump - beginning height 1.75m (5’8 ¾”)
+- 2:15 pm Womens Pole Vault - beginning height 2.15m (7’ ½”) followed by Mens Pole Vault - beginning height - 3.05m (10’0)
+
+
+Track
+
+- 2:00 pm Womens/Mens 10,000 m Run
+- Womens 4x100 m Relay
+- Mens 4x100 m Relay
+- Womens 1500 m Run
+- Mens 1500 m Run
+- Womens 100 m Hurdles
+- Mens 110 m Hurdles
+- Prayer, National Anthem & Brescia Senior Introductions
+- Womens 400 m Dash
+- Mens 400 m Dash
+- Womens 3000 m Steeplechase
+- Mens 3000 m Steeplechase
+- Womens 100 m Dash
+- Mens 100 m Dash
+- Womens 800 m Run
+- Mens 800 m Run
+- Womens 400 m Hurdles
+- Mens 400 m Hurdles
+- Womens 200 m Dash
+- Mens 200m Dash
+- Womens 3000 m Run
+- Mens 3000 m Run
+- Womens 4 x 400 Relay
+- Mens 4 x 400 Relay
