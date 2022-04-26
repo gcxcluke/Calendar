@@ -1,0 +1,55 @@
+---
+title: "Georgetown College Track & Field Meet Information"
+author: "Luke Garnett"
+date: "Updated:`r Sys.time()`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+    toc_depth:  4
+    css: style.css
+---
+
+```{r include=FALSE}
+require(knitr)
+require(mosaic)
+require(DT)
+library(xtable)
+```
+
+
+
+## 4/23/2022: MSJ Invite
+
+<a href="MSC.pdf" target="_blank" class="btn btn-lg btn-outline">
+    <i class="fa fa-file-pdf-o"></i>
+    Download file
+</a>
+
+## Meet Location
+
+81 Rant St, Williamsburg, KY 40769
+
+[Google Maps Location](https://goo.gl/maps/uJFrGUBvMaZK9smv6)
+
+## Hotel Location
+
+Holiday Inn Express & Suites Corbin
+1973 Cumberland Falls Hwy, Corbin, KY 40701
+
+[Google Maps Location](https://goo.gl/maps/HJ4zhqYmVyTbqKEf8)
+
+## Timeline
+
+### Sunday
+
+- 9:00am | Bus Departs from East Campus Stadium to meet
+- 11:00am | Bus arrive at meet
+- 7:00pm | Bus departs meet for Hotel
+
+### Monday
+
+- 8:00am | Breakfast
+- 8:45am | Bus departs hotel for meet
+- 3:40pm | Final event
+- 4:00pm | Awards
+- 4:30pm | Depart for home
