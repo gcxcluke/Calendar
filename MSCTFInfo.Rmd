@@ -18,7 +18,7 @@ library(xtable)
 
 
 
-## 4/23/2022: MSJ Invite
+## 5/1/2022 - 5/2/2022 Mid-South Conference Championships
 
 <a href="MSC.pdf" target="_blank" class="btn btn-lg btn-outline">
     <i class="fa fa-file-pdf-o"></i>
