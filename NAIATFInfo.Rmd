@@ -1,0 +1,68 @@
+---
+title: "Georgetown College Track & Field Meet Information"
+author: "Luke Garnett"
+date: "Updated:`r Sys.time()`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+    toc_depth:  4
+    css: style.css
+---
+
+```{r include=FALSE}
+require(knitr)
+require(mosaic)
+require(DT)
+library(xtable)
+```
+
+
+
+## 5/25/2022 - 5/27/2022 NAIA Outdoor National Championships
+
+<a href="2022_OTF_Schedule_of_Events.pdf" target="_blank" class="btn btn-lg btn-outline">
+    <i class="fa fa-file-pdf-o"></i>
+    Meet Schedule
+</a>
+
+<a href="2022_OTF_Schedule.pdf" target="_blank" class="btn btn-lg btn-outline">
+    <i class="fa fa-file-pdf-o"></i>
+    Practice and Meeting Schedule
+</a>
+
+<a href="2022_NAIA_OTF_Site_Map_Gulf_Shores.pdf" target="_blank" class="btn btn-lg btn-outline">
+    <i class="fa fa-file-pdf-o"></i>
+    Site Map
+</a>
+
+<a href="2022_Addresses.pdf" target="_blank" class="btn btn-lg btn-outline">
+    <i class="fa fa-file-pdf-o"></i>
+    Important Addresses
+</a>
+
+## Meet Location
+
+Mickey Miller Blackwell Stadium
+19025 Oak Road West (County Road 6), Gulf Shores, AL 36542
+
+[Google Maps Location](https://goo.gl/maps/CWybgkA7gBQBhy1j9)
+
+
+
+## Hotel Location
+
+Phoenix Orange Beach
+25494 Perdido Beach Blvd.
+Orange Beach, AL 36561
+Check-in is 4pm or later
+Check -out is 10am
+FD hours 9am-5pm
+After hours check in at Phoenix 5( 24400 Perdido Beach Blvd. Orange Beach, AL)
+
+[Google Maps Location](https://goo.gl/maps/C9YcQLP6JFBYtEMT6)
+
+## Timeline
+
+### Sunday
+
+DEPART EARLY! TBA
