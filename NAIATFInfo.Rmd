@@ -40,6 +40,8 @@ library(xtable)
     Important Addresses
 </a>
 
+
+
 ## Meet Location
 
 Mickey Miller Blackwell Stadium
@@ -47,8 +49,14 @@ Mickey Miller Blackwell Stadium
 
 [Google Maps Location](https://goo.gl/maps/CWybgkA7gBQBhy1j9)
 
+[Purchase Tickets](https://www.simpletix.com/e/2022-naia-outdoor-track-field-national-cha-tickets-103935)
 
+[Online Merchendise Store](https://naiaapparel.com/naia/spring-1/outdoor-track-field/outdoor-track-field-national-championships.html)
 
+[Live Results and Live Stream*](https://www.naia.org/sports/wtrack-out/2021-22/Releases/Schedule_Results)
+*Live stream is not free 
+ 
+ 
 ## Hotel Location
 
 Phoenix Orange Beach
