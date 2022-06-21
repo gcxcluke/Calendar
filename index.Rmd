@@ -30,16 +30,16 @@ data <- read.xlsx2("Schedule.xlsx",sheetIndex=2,
 
 # Latest Update
 
-- Track & Field Schedule Update
+- 2022 Cross Country Schedule Update
 
 ```{r echo=FALSE, results="asis"}
 cat("Updated on:",format(Sys.time(), "%a %b %d %X %Y"))
 ```
 
 
-# 2021-2022 Information {.tabset}
+# 2022-2023 Information {.tabset}
 
-## TF Calendar {.tabset}
+## XC Calendar {.tabset}
 
 <a href="paces.html" title="Go To Page">Click HERE For Pace Distance Runner charts!</a>
 
