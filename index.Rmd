@@ -39,7 +39,7 @@ cat("Updated on:",format(Sys.time(), "%a %b %d %X %Y"))
 
 # 2022-2023 Information {.tabset}
 
-## XC Calendar {.tabset}
+## Calendar {.tabset}
 
 <a href="paces.html" title="Go To Page">Click HERE For Pace Distance Runner charts!</a>
 
@@ -204,7 +204,7 @@ Once you register, you will be assigned an NAIA-ID number. Please let me know wh
 
 ### Insurance Information and Physicals
 
-Stacee Gibson from Athletic Training should have sent you Insurance form information to you Georgetown College Email. PLEASE GET THIS DONE BEFORE AUGUST 1st!
+Stacee Gibson from Athletic Training should have sent you Insurance form information to you Georgetown College Email. PLEASE GET THIS DONE BEFORE July 14th!
 
 If you have any issues with the forms, please email Stacee at: stacee_gibson@georgetowncollege.edu
 
