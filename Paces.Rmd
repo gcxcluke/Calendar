@@ -19,7 +19,7 @@ require(DT)
 library(xtable)
 
 
-trial=read.csv("team.csv",header=TRUE)
+trial=read.csv("team1.csv",header=TRUE)
 
 min2sec=function(min,sec=0){
     return((min*60)+sec)
@@ -76,7 +76,7 @@ training=data.frame(Distance = c("Aerobic", "Threshold", "", "","Lactate",
         factor2=switch(as.character(trial[trial$Name==i,4]),
                        "1500m" = 0.932057,
                        "3k" = 1.86411,
-                       "2 Mile" = 2,
+                       "2Mile" = 2,
                        "5k" = 3.10686,
                        "8k" = 4.97097,
                        "10k" = 6.21371)
@@ -84,7 +84,7 @@ training=data.frame(Distance = c("Aerobic", "Threshold", "", "","Lactate",
         factor1=switch(as.character(trial[trial$Name==i,4]),
                        "1500m" = 1.1,
                        "3k" = 1,
-                       "2 Mile" = 1,
+                       "2Mile" = 1,
                        "5k" = .97,
                        "8k" = .95,
                        "10k" = .92)

@@ -1,5 +1,5 @@
 ---
-title: "Time Trial 2021"
+title: "Time Trial 2022"
 author: "Georgetown College Cross Country"
 date: "8/13/2021"
 output:
@@ -25,6 +25,7 @@ names(trial)=c("First","Last","8/24/2018", "Mile Split","8/9/2019", "Mile Split"
 
 ## 8/8/2020, Time Trial
 
+-8/9/2022: 7:00am, Great Crossing, 75F, 99% humidity
 - 1/15/2022: 10:00am, Legacy Trail, 33F (Feels like 22F), 86% humidity
 - 8/14/2021: 7:00am, Great Crossing Track, 72F 99% humidity
 - 2/24/2021: 2:00pm, Scott Country Track, 58F 27% humidity
@@ -32,6 +33,7 @@ names(trial)=c("First","Last","8/24/2018", "Mile Split","8/9/2019", "Mile Split"
 - 1/13/2020: 4:00pm, Scott County Track, 48F 71% humidity
 - 8/9/2019: 7:00am, Scott County Track, 82F 60% humidity
 - 8/24/2018: 7:00am, Scott County Track, 72F 75% humidity
+
 
 
 ```{r echo=FALSE, results='asis'}
